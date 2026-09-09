@@ -327,7 +327,7 @@ class AstroPySal:
         xLow = xResidual < 0 
 
         yHigh = localneighborY > 0 
-        yLow  = local NeighborY < 0 
+        yLow  = localNeighborY < 0 
 
         hhMask = validBoth & xHigh & yHigh 
         lhMask = validBoth & xLow & yHigh 
