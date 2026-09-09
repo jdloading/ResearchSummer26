@@ -1,6 +1,7 @@
 This repository contains Python code and jupyter notebooks used during a summer research project. 
 
 -**Goal:** To analyze phase relationships of the Interstellar Medium, specifically the magneto-ionic and warm ionic medium. 
+
 -**Data Sources:** Dominion Radio Astrophysical Observatory Global Magneto-ionic Medium Survey the Northern Sky (DRAGONS)
 and The Wisconsin H-alpha Mapper experiment (WHAM). 
 
