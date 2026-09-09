@@ -1,5 +1,25 @@
+# Jupyter Notebook checkpoints 
 .ipynb_checkpoints/
-.npz/
-.bashrc/
 */.ipynb_checkpoints/
-.git/
+
+# Python caching 
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables and local settings 
+.env
+.env.*
+config.json
+secrets.py
+
+# Data files 
+*.csv
+*.xlsx
+*.sqlite
