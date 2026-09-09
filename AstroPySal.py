@@ -229,7 +229,7 @@ class AstroPySal:
             
         """
         if self.w is None or self.keepIds is None:_
-            self.build_healpix_weights() 
+        self.build_healpix_weights() 
 
         xArray = np.asarray(xArray, dtype=np.float64)
         yArray = np.asarray(yArray, dtype=np.float64)
@@ -299,7 +299,7 @@ class AstroPySal:
                 "No pixels remain after applying local validity requirements."
             )
 
-        localSpares = self.w.sparse[
+        localSparse = self.w.sparse[
             localIndices
         ][:, localIndices]
 
@@ -326,8 +326,8 @@ class AstroPySal:
         xHigh = xResidual > 0 
         xLow = xResidual < 0 
 
-        yHigh = localneighborY > 0 
-        yLow  = local NeighborY < 0 
+        yHigh = localNeighborY > 0 
+        yLow  = localNeighborY < 0 
 
         hhMask = validBoth & xHigh & yHigh 
         lhMask = validBoth & xLow & yHigh 
