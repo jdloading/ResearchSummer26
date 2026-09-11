@@ -5,4 +5,4 @@ This repository contains Python code and jupyter notebooks used during a summer 
 -**Data Sources:** Dominion Radio Astrophysical Observatory Global Magneto-ionic Medium Survey the Northern Sky (DRAGONS)
 and The Wisconsin H-alpha Mapper experiment (WHAM). 
 
-*This repository functions as a working scratchpad for astrophysical data analysis, written from an undergraduate researcher's perspective and experience, not an enterprise software engineer.*
+*This repository functions as a working scratchpad for astrophysical data analysis, written from an undergraduate researcher's perspective and experience, not a software engineer or computer science student.*
